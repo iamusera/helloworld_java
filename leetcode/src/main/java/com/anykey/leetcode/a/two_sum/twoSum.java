@@ -1,7 +1,9 @@
 package com.anykey.leetcode.a.two_sum;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class twoSum {
     public static List<Integer> arr = new ArrayList<>();;
@@ -13,7 +15,6 @@ public class twoSum {
     };
 
     public twoSum() {
-        
     }
 
     public static class inner{
@@ -35,5 +36,9 @@ public class twoSum {
             }
         }
         return result;
-    }
+    };
+    public int[] cal2(){
+        Map<Integer, Integer> map = new HashMap<>();
+        return new int[]{1,2};
+    };
 }
